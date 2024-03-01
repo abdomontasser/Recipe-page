@@ -32,8 +32,6 @@ body
 .children-2
 {
 margin-top: 10px;
-/* font-family: "Young Serif", serif; */
-/* font-family: "Outfit", sans-serif; */
 }
 .children-2 h1
 {
@@ -41,7 +39,6 @@ margin-top: 10px;
     margin-left: 20px;
     font-weight:400;
     font-family: "Outfit", sans-serif;
-  
     font-size: 18px;
 }
 .children-2 .description
@@ -133,8 +130,6 @@ font-size: 20px;
     font-family:  "Outfit", sans-serif;
     opacity: 0.7;     
 }
-
-
 .Nutrition-Table {
     border-collapse: separate;
     border-spacing: 0;
@@ -148,8 +143,6 @@ td {
     padding: 10px;
     
 }
-
-
 th {
     border-bottom: 1px solid black; 
     border-right: none; 
@@ -164,7 +157,14 @@ td:last-child
     font-family:  "Outfit", sans-serif;
 }
 
+
 @media only screen and (max-width: 768px) {
+    .child {
+        width: calc(100% - 20px); 
+    }
+}
+
+@media only screen and (max-width: 480px) {
     .child {
         width: calc(100% - 20px); 
     }
