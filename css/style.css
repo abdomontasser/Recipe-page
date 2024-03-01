@@ -1,0 +1,179 @@
+body
+{
+    font-size: 16px;
+    background-color: #f3e5d8;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child
+{
+    width:calc(150%/6);
+    height:auto;
+    background-color: white;
+    margin-top:3rem;    
+    display: grid;
+    grid-template-rows:1fr 1fr auto auto auto auto;
+    border-radius: 10px;
+}
+.children-1
+{
+    background-image: url(../assets/images/image-omelette.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+   background-size:100%;
+    margin:10px 10px;
+    border-radius: 10px;
+}
+.children-2
+{
+margin-top: 10px;
+/* font-family: "Young Serif", serif; */
+/* font-family: "Outfit", sans-serif; */
+}
+.children-2 h1
+{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-weight:400;
+    font-family: "Outfit", sans-serif;
+  
+    font-size: 18px;
+}
+.children-2 .description
+{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.children-3
+{
+    margin-top: 10px;
+    background-color: #fff5fa;
+    margin: auto 10px;
+}
+.preparation-list p
+{
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+    font-weight: bold;
+    margin: 7px auto;
+}
+ul li
+{
+    list-style:disc;
+    line-height: 20px;
+}
+ul li span
+{
+    font-weight: bolder;
+    font-weight: 400;
+}
+.children-4
+{
+    margin-top:10px auto;
+}
+.Ingrediants-list p
+{
+    margin: 0px;
+    color:brown;    
+    font-size: 20px;
+}
+.Ingrediants-list li
+{
+    font-size: 15px;
+    line-height:20px;
+    opacity: 0.7;
+    font-family:  "Outfit", sans-serif;;
+}
+.children-5 p
+{
+color: #a52a2a;
+font-size: 20px;
+}
+.children-5 li
+{
+    font-size: 14px;
+    line-height:25px;
+    margin-right:20px;
+    font-family:  "Outfit", sans-serif;;
+}
+.children-5 li span
+{
+    font-weight: bold;
+    font-family:  "Outfit", sans-serif;
+    opacity: 0.7;
+}
+.children-6
+{
+    margin:auto 15px;
+}
+.children-6 .header
+{
+    color: brown;
+    font-size: 20px;
+    font-weight: 900;
+}
+.nutration-values
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nutration-values p
+{
+    margin:auto 10px;
+}
+.Nutrition-desc
+{
+    font-family:  "Outfit", sans-serif;
+    opacity: 0.7;     
+}
+
+
+.Nutrition-Table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+td {
+    border-bottom: 1px solid black; 
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    
+}
+
+
+th {
+    border-bottom: 1px solid black; 
+    border-right: none; 
+    border-left: none; 
+    padding: 8px;
+    text-align: left;
+}
+td:last-child
+{
+    color: #a52a2a;
+    font-weight:700;
+    font-family:  "Outfit", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .child {
+        width: calc(100% - 20px); 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .child {
+        width: calc(100% - 20px); 
+    }
+}
+
